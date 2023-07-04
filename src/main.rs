@@ -5,7 +5,7 @@ extern crate colored;
 use colored::*;
 
 
-const CONFIG_FILE: &str = "/home/princess/.config/rweather.conf";
+const CONFIG_FILE: &str = "/home/vincent/.config/rweather.conf";
 
 #[derive(Parser, Debug)]
 #[command(name = "RWeather")]
